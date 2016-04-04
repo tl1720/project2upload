@@ -1193,14 +1193,5 @@ module org.crsx.hacs.samples.Pr2TailinLo {
   sort Type | scheme GetIDENTIFIERType(IDENTIFIER)↓te;
   GetIDENTIFIERType(#id) ↓te{#id : #t} → #t ;
   GetIDENTIFIERType(#id) ↓te{¬#id} → ⟦ {} ⟧;
-
-  
-  ////////////////////////////////////////////////////////////////////////
-
-//  sort Result | ⟦OK⟧ | ⟦TYPE ERROR⟧ | scheme Check(Program) | scheme Check2(Program);
-//  Check(#P) → Check2(P2(#P));
-
-//  Check2(#P ↑ok(True)) → ⟦OK⟧;
-//  Check2(#P ↑ok(False)) → ⟦TYPE ERROR⟧;
   
 }
